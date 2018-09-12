@@ -4,7 +4,7 @@
   "description": "testing github pages npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brianloweongit/pages/issues"
   },
-  "homepage": "https://github.com/brianloweongit/pages#readme"
+  "homepage": "https://github.com/brianloweongit/pages",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
