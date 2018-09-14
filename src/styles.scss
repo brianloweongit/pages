@@ -99,21 +99,24 @@ footer {
 
 /* small screens */
 @media( max-width: 560px) {
-  .showcase::after {
-    height: 50vh;
-  }
+  .showcase {
 
-  .content {
-    top: 5%;
-    margin-top: 5px;
-
-    .logo {
-      height: 70px;
-      width: 70px;
+    &::after {
+      height: 50vh;
     }
 
-    .text {
-      display: none;
+    .content {
+      top: 5%;
+      margin-top: 5px;
+
+      .logo {
+        height: 70px;
+        width: 70px;
+      }
+
+      .text {
+        display: none;
+      }
     }
   }
 
