@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'LOWElogic\'s gh-pages';
+  title = 'Legend Bridal Designs';
 }
